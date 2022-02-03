@@ -1,0 +1,292 @@
+	#body{
+		margin:0;
+	}
+	#entete{
+		background-color:white;
+		width: 100%;
+		height:150px;
+		border: 3px solid black;
+		position: absolute;
+		left: 0px;
+		top:0px;
+		margin:0;
+	}
+	#photoPanier{
+		width: 50px;
+		height: 50px;
+		padding: 40px;
+		font-weight: bold;
+		float: right;
+		position: absolute;
+		right:50px;
+		top:10px;
+	}
+
+
+	#panier {
+
+		width: 100px;
+		height: 50px;
+		font-family: arial;
+		font-size: 16px;
+		padding: 40px;
+		font-weight: bold;
+		color: red;
+		float: left;
+		position: absolute;
+		right:10px;
+		top:50px;
+		margin-top: 10px;
+		margin-top: 10px;
+	}
+
+	nav{
+		width: 100%;
+		background-color: #9900ff;
+		height:50px;
+		position: absolute;
+		top:150px;
+		left:0px;
+	}
+	nav > ul{
+		margin:0px;
+		padding: 0px;
+	}
+	nav > ul > li{
+		float: left;
+		position:relative;
+	}
+	nav > ul::after{
+		content: "";
+		display: block;
+		clear: both;
+	}
+	nav> ul > li >a{
+		padding: 20px 30px;
+		color: white;
+	}
+	nav li{
+		list-style-type: none;
+	}
+	.sousMenus{
+		display: none;
+	}
+	nav a{
+		display: inline-block;
+		text-decoration: none;
+	}
+	nav li:hover .sousMenus{
+		display: inline-block;
+		position: absolute;
+		top:100%;
+		left: 0px;
+		padding: 0px;
+		z-index: 1000;
+	}
+	.sousMenus li{
+		border-bottom: 1px solid #CCC;
+	}
+	.sousMenus li a{
+		background-color: #9900ff;
+		padding: 15px 30px;
+		font-size: 15px;
+		font-weight: bold;
+		color: white;
+		width: 200px;
+	}
+	.contenu-fotter{
+		background-color: #9900ff;
+		width:100%;
+		height: 20px;
+		margin: 0 auto;
+		display: flex;
+		justify-content:center;
+		align-items:flex-start;
+		font-size: 14px;
+		padding: 20px 0 200px;
+		position: absolute;
+		left:5px;
+		top: 1150px;
+
+	}
+	.fotterMenu{
+		width:200px;
+		font-family: arial;
+		font-size: 18px;
+		margin-left: 8%;
+		justify-content:center;
+
+
+
+
+
+	}
+	h1{
+		font-size: 20px;
+		font-family: arial;
+		text-align: center;
+
+	}
+	#zoneContenuItem{
+
+		width:100%;
+		height:auto;
+		position: absolute;
+		top: 250px;
+		left: 5px;
+	}
+
+	.item {
+		font-family: arial;
+		font-size: 12px;
+		font-weight: bold;
+		color: midnightblue;
+		width: 10%;
+		text-align: center;
+		margin-left:3%;
+		padding-top: 8px;
+		display: inline-block;
+	}
+	.ajouter{
+		background-color:#9900ff;
+		width: 60%;
+		height: 20px;
+		border: 1px solid black;
+		font-size: 12px;
+		padding-top: 10px;
+		font-weight: bold;
+		margin-left: 25%;
+		margin-top: 5px;
+	}
+	.imageItem{
+		justify-content: center;
+		border: 1px solid black;
+		margin-top: 5px;
+
+	}
+
+	.prix{
+		color:red;
+		font-size: 14px;
+		justify-content: center;
+		font-weight: bold;
+	}
+
+
+	#idImage{
+		position:absolute;
+		left:0px;
+		top:50px;
+	}
+	#boutique {
+		background-color:#9900ff;
+		width: 100%;
+		height: 40px;
+		font-family: arial;
+		font-size: 30px;
+		color: white;
+		font-weight: bold;
+		text-align:center;
+		border: 1px solid black;
+		position: absolute;
+		top:0px;
+		left: 0px;
+		bottom: 20px;
+		margin-outside:0;
+	}
+
+
+
+
+	#recherche {
+		width:500px;
+		height:40px;
+		border: 2px solid #9900ff;
+		font-size: 18px;
+		position: absolute;
+		left:400px;
+		top:50px;
+		diplay:table-column;
+	}
+	#buttonrechercher {
+		background-color:#9900ff;
+		border: 2px solid #9900ff;
+		text-align: center;
+		width:150px;
+		height:40px;
+		color: white;
+		font-size: 18px;
+		font-weight:bold;
+		position: absolute;
+		top: 50px;
+		left: 950px;
+	}
+
+
+
+
+	div.divarticle2{
+		width:150px;
+		height:200px;
+		position: absolute;
+		right:10px;
+		top: 500px;
+	}
+
+
+
+
+	#entetebox{
+		border-style: solid;
+		border-bottom: none;
+		background-color:red;
+		width: 100%;
+		height:170px;
+		border: 3px solid black;
+
+	}
+
+
+  #buttunnav2 {
+	  background-color:#bebebe;
+	  width: 200px;
+	  height: 30px;
+	  font-weight:bolder;
+	  font-family: arial;
+	  font-size: 18px;
+	  color: black;
+	  position: absolute;
+	  left:10px;
+	  top:5px;
+
+  }
+
+
+
+   #pubimg{
+	   border: 1px groove grey;
+	  widht:350px;
+	  height:80px;
+
+  }
+
+
+	#zoneContenuFacture{
+		background-color: #dedede;
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		top: 170px;
+		left: 0px;
+		padding-top: 50px;
+		display: none;
+	}
+	.afficheValeur{
+		color:blue;
+		font-size: 18px;
+		font-weight: bold;
+	}
+	
+
+
+

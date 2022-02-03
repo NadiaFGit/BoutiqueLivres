@@ -1,0 +1,47 @@
+#loginButton{
+    color:#9900ff;
+
+}
+#loginButton2{
+    color:#9900ff;
+
+}
+#zoneAffichage{
+
+    color:red;
+    font-size: 16px;
+    font-weight: bold;
+    visibility: hidden;
+}
+#login1 {
+
+    width:400px;
+    height:300px;
+    font-family: arial;
+    align-content: center;
+    padding:20px;
+    position: absolute;
+    top: 400px;
+    left:100px;
+    border:2px solid black;
+
+
+}
+#login2 {
+
+    width:400px;
+    height:300px;
+    text-align: left;
+    font-family: arial;
+    padding:20px;
+    position: absolute;
+    top: 400px;
+    right:200px;
+    border:2px solid black;
+}
+
+
+
+
+
+
